@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import { v4 as uuidv4 } from 'uuid';
 import { FaEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
+import Footer from './components/Footer';
 
 
 function App() {
@@ -88,6 +89,7 @@ function App() {
             })}
           </div>
       </div>
+      <Footer/>
     </>
   )
 }
